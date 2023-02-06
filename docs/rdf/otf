@@ -1,0 +1,30 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix http: <http://www.ws.org/2011/http#> .
+
+@base <https://git.llab.dev/rdf/>
+
+<otf>
+  a owl:Ontology ;
+  rdfs:label "Organiztional Tool Framework extension of RDF"@en ;
+  rdfs:comment "A namespace for describing how to organize data"@en ;
+  owl:versionInfo "0.0.0"@en ;
+  rdfs:isDefinedBy <https://github.com/luckym1/luckym1.github.io/blob/main/README.md> ;
+  rdfs:seeAlso <https://github.com/luckym1/ot> .
+
+<otf#Source>
+  a rdfs:Class, owl:Class ;
+  rdfs:label "Source"@en ;
+  rdfs:comment "A source of data"@en ;
+  
+<otf#Copy>
+  a rdfs:Class, owl:Class ;
+  rdfs:label "Copy"@en ;
+  rdfs:comment "A copy of a data source"@en ;
+  
+<otf#Link>
+  a rdfs:Class, owl:Class ;
+  rdfs:label "Link"@en ;
+  rdfs:comment "A link to a source or another link"@en ;
+  
