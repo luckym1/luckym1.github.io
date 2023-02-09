@@ -28,22 +28,22 @@
   rdfs:label "Link"@en ;
   rdfs:comment "A data Link"@en .
   
-<otf#link>
+<otf#links>
   a rdf:Property ;
-  rdfs:label "link"@en ;
-  rdfs:comment "The link of a data Source to a data Link"@en .
+  rdfs:label "links"@en ;
+  rdfs:comment "The link from an otf:Source to an otf:Link"@en .
   
-<otf#copy>
+<otf#copies>
   a rdf:Property ;
-  rdfs:label "copy"@en ;
-  rdfs:comment "The copy of a data Source to a data Copy"@en .
+  rdfs:label "copies"@en ;
+  rdfs:comment "The copy from a otf:Source to an otf:Copy"@en .
   
+<otf#handle>
+  a rdf:Property ;
+  rdfs:label "handle"@en ;
+  rdfs:comment "The tag or handle '@' of an Object"@en .
+
 <otf#tag>
   a rdf:Property ;
   rdfs:label "tag"@en ;
-  rdfs:comment "The tag or handle of an Object"@en .
-
-<otf#hash_tag>
-  a rdf:Property ;
-  rdfs:label "hash tag"@en ;
-  rdfs:comment "The hash tag or topic of an Object"@en .
+  rdfs:comment "The hash tag or topic '#' of an Object"@en .
