@@ -16,15 +16,15 @@
 <otf#Source>
   a rdfs:Class, owl:Class ;
   rdfs:label "Source"@en ;
-  rdfs:comment "A source of data"@en ;
+  rdfs:comment "A source of data"@en .
   
 <otf#Copy>
   a rdfs:Class, owl:Class ;
   rdfs:label "Copy"@en ;
-  rdfs:comment "A copy of a data source"@en ;
+  rdfs:comment "A copy of a data source"@en .
   
 <otf#Link>
   a rdfs:Class, owl:Class ;
   rdfs:label "Link"@en ;
-  rdfs:comment "A link to a source or another link"@en ;
+  rdfs:comment "A link to a source or another link"@en .
   
