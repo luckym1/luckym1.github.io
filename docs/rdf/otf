@@ -38,4 +38,12 @@
   rdfs:label "copy"@en ;
   rdfs:comment "The copy of a data Source to a data Copy"@en .
   
-  
+<otf#tag>
+  a rdf:Property ;
+  rdfs:label "tag"@en ;
+  rdfs:comment "The tag or handle of an Object"@en .
+
+<otf#hash_tag>
+  a rdf:Property ;
+  rdfs:label "hash tag"@en ;
+  rdfs:comment "The hash tag or topic of an Object"@en .
