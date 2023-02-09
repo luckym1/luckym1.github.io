@@ -18,32 +18,18 @@
   rdfs:label "Source"@en ;
   rdfs:comment "A data Source"@en .
   
-<otf#Copy>
-  a rdfs:Class, owl:Class ;
-  rdfs:label "Copy"@en ;
-  rdfs:comment "A data Copy"@en .
-  
 <otf#Link>
   a rdfs:Class, owl:Class ;
   rdfs:label "Link"@en ;
   rdfs:comment "A data Link"@en .
   
-<otf#links>
+<otf#linked_to>
   a rdf:Property ;
-  rdfs:label "links"@en ;
-  rdfs:comment "The link from an otf:Source to an otf:Link"@en .
-  
-<otf#copies>
-  a rdf:Property ;
-  rdfs:label "copies"@en ;
-  rdfs:comment "The copy from a otf:Source to an otf:Copy"@en .
-  
-<otf#handle>
-  a rdf:Property ;
-  rdfs:label "handle"@en ;
-  rdfs:comment "The tag or handle '@' of an Object"@en .
+  rdfs:label "linked to"@en ;
+  rdfs:comment "The link between a subject and an object that represents that the subject is a pointer to the object and when the object is referenced it will return the data stored at the subjects location"@en .
 
-<otf#tag>
+<otf#tagged_by>
   a rdf:Property ;
-  rdfs:label "tag"@en ;
-  rdfs:comment "The hash tag or topic '#' of an Object"@en .
+  rdfs:label "tagged by"@en ;
+  rdfs:comment "The subject is tagged by, or has the topic of, the object"@en .
+  # add that this is only a Literal
