@@ -27,9 +27,12 @@
   a rdf:Property ;
   rdfs:label "linked to"@en ;
   rdfs:comment "The link between a subject and an object where the subject is a pointer to the object and when the object is referenced it will return the data stored at the subjects location"@en .
+  rdfs:domain otf:Link;
+  rdfs:range otf:Source .
 
 <otf#tagged_by>
   a rdf:Property ;
   rdfs:label "tagged by"@en ;
-  rdfs:comment "The subject is tagged by, or has the topic of, the object"@en .
-  # add that this is only a Literal
+  rdfs:comment "The subject is tagged by, or has the topic of, the object"@en ;
+  rdfs:domain otf:Link, otf:Source ;
+  rdfs:range rdfs:Literal .
