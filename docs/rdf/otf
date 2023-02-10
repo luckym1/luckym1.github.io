@@ -34,5 +34,5 @@
   a rdf:Property ;
   rdfs:label "tagged by"@en ;
   rdfs:comment "The subject is tagged by, or has the topic of, the object"@en ;
-  rdfs:domain otf:Link, otf:Source ;
+  rdfs:domain otf:Source ;
   rdfs:range rdfs:Literal .
