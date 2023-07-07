@@ -1,3 +1,11 @@
+.vscode
+
+.bundle
+.jekyll-cache
+.sass-cache
+_site
+
+
 *.gem
 *.rbc
 /.config
