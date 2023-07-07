@@ -4,12 +4,6 @@
 
 ## Data
 
-Assess the domain problem the visualization solves
-Determine the data and tasks your users have
-Choose the right encodings for your domain, data, and tasks
-Build an algorithm to map the data to the encodings
-Design interactions to explore and refine the data
-
 ## Visualization 1
 
 ![Activity vs Age and Color Radar Plot](images/radar.png)
