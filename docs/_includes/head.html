@@ -32,4 +32,21 @@
   {% endif %}
 
   {%- include custom_head.html -%}
+
+
+  <!-- Vega -->
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+    
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.8.0"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 </head>
