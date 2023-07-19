@@ -9,8 +9,8 @@ navbar_entries:
     url: https://www.michaellucky.com
 
 project_entries:
-  - title: Data Visualization
-    url: projects/DTSA-5304
+  - title: Data Visualization Final Project
+    url: projects/DTSA-5304_Final_Project
     desc: Data Visualization for Data Science Masters at CU Boulder
 
 old_project_entries:
