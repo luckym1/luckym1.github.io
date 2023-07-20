@@ -1,12 +1,11 @@
-title: Lucky's HomeLab
+title: Michael Lucky's Portfolio
 author: Michael Lucky
 url: https://pages.llab.dev # root address of the site
 description: > # description of the site (multiple lines allowed)
-  This is a place for experimenting and tinkering in the Lucky HomeLab.
 
 permalink: /:slug
 
-favicon: "./logo.png" # relative path to site's favicon
+favicon: "./lucky-hand-lettering-word_105554-158.png" # relative path to site's favicon
 
 twitter:
     #username: abhinav # update or delete this
@@ -26,9 +25,9 @@ theme_config:
   show_copyright: true # show copyright notice in footer
   # following keys are using to create home layout
   show_projects: true # show projects as cards, add in _data/home.yml
-  show_blog: true # show blog posts added in _posts
+  show_blog: false # show blog posts added in _posts
   show_old_projects: false # show old projects as cards, add in _data/home.yml
-  show_misc_list: true # show generic vertical list for misc details, add _data/home.yml
+  show_misc_list: false # show generic vertical list for misc details, add _data/home.yml
   show_reading_time: true # show number of words and reading time in the blog posts
   show_tags: true # show tags in a blog posts
   # options for "home" page
