@@ -161,9 +161,7 @@ The approach used to was a `think aloud` method where the user would talk throug
 
 ### Evaluation findings
 
-After recording think alouds from three different individuals I dertermined the following results.
-
-
+After recording think alouds from three different individuals I determined the following results.
 
 #### Insight Depth
 
